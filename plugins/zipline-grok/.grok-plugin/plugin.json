@@ -9,7 +9,7 @@
     "url": "https://zipline.li"
   },
   "homepage": "https://zipline.li",
-  "repository": "https://github.com/DotteStudio/Zipline-mcp",
+  "repository": "https://github.com/Zipline-mcp/Zipline-mcp",
   "license": "MIT",
   "keywords": ["zipline", "zipline mcp", "zipline.li", "zipline handoff", "zipline thread"],
   "logo": "assets/logo.png"
