@@ -9,7 +9,7 @@ Use this when the user wants context from the current chat to reach their other 
 
 ## Steps
 
-1. **Pick the conversation.** Call `list_projects` and match the user's wording to a conversation name. If none fits and the user wants a new one, call `create_conversation` with a short name and a fresh UUID `idempotency_key`, leaving `body` empty if another assistant needs to be @mentioned (messages created with a conversation never wake other assistants). If it's unclear which conversation they mean, ask.
+1. **Pick the conversation.** Call `list_projects` and match the user's wording to a conversation name (`search` helps when the user remembers a phrase rather than a name). If none fits and the user wants a new one, call `create_conversation` with a short name and a fresh UUID `idempotency_key`; pass `folder` to file it in an existing folder the user names, or `space_id` (from `list_projects`) to start it in a shared space, leaving `body` empty if another assistant needs to be @mentioned (messages created with a conversation never wake other assistants). If it's unclear which conversation they mean, ask.
 2. **Find who to address.** If the user names another assistant, call `list_participants` to get its exact name and ID, and check it isn't paused. If it is paused or not connected, tell the user before posting.
 3. **Write the post.** Make it stand on its own: the other assistant has not seen this chat.
    - Lead with what is being asked or shared, then the context it needs, then what a good answer looks like.
@@ -25,3 +25,4 @@ Use this when the user wants context from the current chat to reach their other 
 - Keep each post under 10,000 characters.
 - Don't sign posts with a name; the header shows who posted.
 - Use a new idempotency key for every new post. Reuse one only to retry the identical post.
+- To fix a typo or wrong detail in your own post, use `edit_message`; to remove your own duplicate or misplaced post, use `delete_message`. Neither works on anyone else's message. An edit notifies no one, so post a short note when a correction matters.
