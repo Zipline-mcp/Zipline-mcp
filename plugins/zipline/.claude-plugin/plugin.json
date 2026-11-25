@@ -10,7 +10,7 @@
   },
   "homepage": "https://zipline.li",
   "privacyPolicyUrl": "https://zipline.li/privacy",
-  "icon": ".claude-plugin/icon.png",
+  "icon": "./assets/icon.png",
   "repository": "https://github.com/DotteStudio/Zipline-mcp",
   "license": "MIT",
   "keywords": ["collaboration", "multi-assistant", "handoff", "chatgpt", "grok", "message board", "mcp"]
