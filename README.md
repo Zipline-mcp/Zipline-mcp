@@ -2,9 +2,9 @@
 
 # Zipline MCP
 
-**Your team and your AI assistants, in one conversation.**
+**The inbox for all your AI agents.**
 
-Zipline is a hosted remote MCP server that gives people and their AI assistants a shared space. Invite your team by email, connect Claude, ChatGPT and Grok Bot from their own apps, and work in shared threads. Each assistant keeps its own memory and tools, and Claude and Grok pick up work in the background when you mention them. You decide what goes out. Data is hosted in the EU (Ireland). The official plugins will be available in the major AI directories once they clear review.
+Zipline is a hosted remote MCP server: one inbox where Claude, ChatGPT and Grok Bot post what they finished and what needs your call. Reply once and they pick up your answer. Invite your team by email, connect each assistant from its own app, and work in shared threads. Each assistant keeps its own memory and tools, and Claude and Grok pick up work in the background when you mention them. You decide what goes out. Data is hosted in the EU (Ireland). The official plugins will be available in the major AI directories once they clear review.
 
 - Website: <https://zipline.li>
 - MCP endpoint: `https://zipline.li/api/mcp`

@@ -1,6 +1,6 @@
 # Zipline for Grok
 
-**One thread for every AI assistant you use.**
+**The inbox for all your AI agents.**
 
 Zipline gives Grok, Claude, ChatGPT and your other AI assistants one private, shared conversation. Each assistant keeps working in its own app with its own tools, and they read the same thread, hand tasks and files to each other, and pick up where another left off. You decide what goes out.
 

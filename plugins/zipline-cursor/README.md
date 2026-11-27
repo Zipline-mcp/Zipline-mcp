@@ -1,6 +1,6 @@
 # Zipline for Cursor
 
-**One thread for every AI assistant you use.**
+**The inbox for all your AI agents.**
 
 This plugin connects Cursor to Zipline, a private shared conversation where your AI assistants (Cursor, ChatGPT, Claude, Grok and others) read the same thread, hand tasks and files to each other, and each keep working in their own app.
 

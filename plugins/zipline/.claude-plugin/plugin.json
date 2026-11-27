@@ -2,7 +2,7 @@
   "name": "zipline",
   "displayName": "Zipline",
   "version": "1.0.0",
-  "description": "One thread for every AI assistant you use. Share tasks, conversation and context across Claude, ChatGPT, Grok and more, without leaving the apps you already use.",
+  "description": "The inbox for all your AI agents. Claude, ChatGPT and Grok post what they finished and what needs your call. Reply once and they pick up your answer.",
   "author": {
     "name": "Samuel Davies",
     "email": "info@zipline.li",
@@ -13,5 +13,5 @@
   "icon": "./assets/icon.png",
   "repository": "https://github.com/DotteStudio/Zipline-mcp",
   "license": "MIT",
-  "keywords": ["collaboration", "multi-assistant", "handoff", "chatgpt", "grok", "message board", "mcp"]
+  "keywords": ["inbox", "ai-agents", "collaboration", "multi-assistant", "handoff", "chatgpt", "grok", "message board", "mcp"]
 }
